@@ -1,10 +1,15 @@
 
-$('.responsive').slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+$('.img-slider-parent').slick({
+    speed: 2000,
+    autoplay: true,
+    autoplaySpeed: 0,
+    cssEase: 'linear',
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    infinite: true,
+    swipeToSlide: true,
+    centerMode: true,
+    focusOnSelect: true,
     responsive: [
         {
             breakpoint: 1024,

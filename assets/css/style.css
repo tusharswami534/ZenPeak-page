@@ -3,9 +3,31 @@
 * {
     font-family: "Ubuntu", sans-serif;
 }
-.accordin-bg-img{
-     background-image: url(/assets/images/png/accordin-bg-img.png);
+
+.accordin-bg-img {
+    background-image: url(/assets/images/png/accordin-bg-img.png);
 }
-.footer-sec-bg-img{
+
+.footer-sec-bg-img {
     background-image: url(/assets/images/png/footer-sec-img.png);
+}
+
+.img-slider-parent .slick-list {
+    height: 112px !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.img-slider-parent .slick-list .slick-track .slick-slide {
+    height: 112px !important;
+}
+
+.img-slider-parent .slick-list .slick-track {
+    gap: 30px !important;
+    display: flex !important;
+}
+.img-slider-parent button {
+    display: none !important;
 }
